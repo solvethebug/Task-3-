@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calulator">
+      <input type="text" placeholder="0" id="input" />
+
+      <div>
+        <button class="sign">AC</button>
+        <button class="sign">DEL</button>
+        <button>%</button>
+        <button>/</button>
+      </div>
+      <div class="elem">
+        <div>
+          <button onclick="a()">7</button>
+          <button onclick="b()">8</button>
+          <button onclick="c()">9</button>
+          <button onclick="d()">*</button>
+        </div>
+        <div>
+          <button onclick="e()">4</button>
+          <button onclick="f()">5</button>
+          <button onclick="g()">6</button>
+          <button onclick="h()">-</button>
+        </div>
+        <div>
+          <button onclick="i()">1</button>
+          <button onclick="j()">2</button>
+          <button onclick="k()">3</button>
+          <button onclick="l()">+</button>
+        </div>
+        <div>
+          <button>00</button>
+          <button>0</button>
+          <button>.</button>
+          <button class="eqlbtn">=</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
+<script>
+  function a() {
+    input.value = +"7";
+  }
+  function b() {
+    input.value = +"8";
+  }
+  function c() {
+    input.value = +"9";
+  }
+  function d() {
+    input.value = +"*";
+  }
+  function e() {
+    input.value = +"4";
+  }
+  function f() {
+    input.value = +"5";
+  }
+  function g() {
+    input.value = +"6";
+  }
+  function h() {
+    input.value = +"-";
+  }
+  function i() {
+    input.value = +"1";
+  }
+  function j() {
+    input.value = +"2";
+  }
+  function k() {
+    input.value = +"3";
+  }
+  function l() {
+    input.value = +"+";
+  }
+</script>
